@@ -25,17 +25,22 @@ h1 {
   color: #06365f;
 }
 
-#mainimage {
-  height: 60%;
+.mainImage {
+  height: 75%;
 }
 
 #brand {
   display: inline-block;
+  width: 65%;
 }
 
 #main {
   display: inline-block;
   width: 40%;
+}
+
+#mainHead {
+
 }
 
 #info {
@@ -50,14 +55,24 @@ h1 {
   text-transform: uppercase;
   font-size: 0.6em;
   font-weight: bold;
+  margin: 5px;
 }
 
+button {
+  background: url('../images/bgtile.png');
+  display: inline-block;
+  width: 35%;
+  border: 1px solid #06365f
+  background: linear-gradient (to bottom # #1c5380);
+  color: white;
+}
 p {
   font-size: 0.8em;
   color: darkslategrey;
 }
 ul {
   list-style: none;
+  margin: 5px;
 }
 
 li {
