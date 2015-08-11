@@ -54,12 +54,15 @@ h1 {
 }
 
 .brand {
-  width: 450px;
+  width: 485px;
+  margin: 5px;
+
+  vertical-align: middle;
 }
 
 #home {
-  margin-right: 8px;
-  margin-top: 5px;
+  margin: auto 8px auto 0px;
+  vertical-align: bottom;
 }
 
 button {
