@@ -7,12 +7,17 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: 
+  background: #fff url('../images/bgtile.png') repeat-x;
 }
 
 div {
   display: inline-block;
 
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #06365f;
 }
 
 p {
@@ -24,4 +29,9 @@ ul {
   color: #06365f;
 }
 
+li {
+  display: inline-block;
+  margin: 1px;
+  text-transform: uppercase;;
+}
 
