@@ -25,10 +25,6 @@ h1 {
   color: #06365f;
 }
 
-.mainImage {
-  height: 75%;
-}
-
 #main {
   display: inline-block;
   width: 40%;
@@ -47,6 +43,10 @@ h1 {
   font-size: 0.6em;
   font-weight: bold;
   margin: 5px;
+}
+
+.mainImage {
+  height: 400px;
 }
 
 .app {
@@ -68,16 +68,16 @@ button {
   border: 1px solid #06365f;
   background: linear-gradient(to bottom, #4682B4 0%, #1c5380 50%);
   color: white;
-  vertical-align: middle;
+
   width: 85px;
   height: 35px;
-
 }
 
 p {
   font-size: 0.8em;
   color: darkslategrey;
 }
+
 ul {
   list-style: none;
   margin: 5px;
@@ -90,6 +90,5 @@ li {
   font-weight: bold;
   font-size: 0.6em;
   color: #1c5380;
-  padding: 5px
+  padding: 5px;
 }
-
