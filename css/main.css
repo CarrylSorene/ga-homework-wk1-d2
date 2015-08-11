@@ -6,18 +6,28 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
   background: #FFF url('../images/bgtile.png') repeat-x;
+  margin: auto;
+  width: 60%;
+}
+
+wrap {
+  position: relative;
+  top: 150px;
+
 }
 
 div {
   display: inline-block;
-
 }
 
 h1 {
   font-size: 1.2em;
   color: #06365f;
+}
+
+#mainimage {
+  height: 60%;
 }
 
 #brand {
