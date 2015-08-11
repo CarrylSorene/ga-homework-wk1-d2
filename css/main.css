@@ -30,8 +30,8 @@ h1 {
 }
 
 #brand {
-  display: inline-block;
-  width: 65%;
+  float-left;
+  width: 60%;
 }
 
 #main {
@@ -59,13 +59,14 @@ h1 {
 }
 
 button {
+  float: right;
   background: url('../images/bgtile.png');
-  display: inline-block;
-  width: 35%;
+  width: 40%;
   border: 1px solid #06365f
   background: linear-gradient (to bottom # #1c5380);
   color: white;
 }
+
 p {
   font-size: 0.8em;
   color: darkslategrey;
