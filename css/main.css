@@ -39,10 +39,6 @@ h1 {
   width: 40%;
 }
 
-#mainHead {
-
-}
-
 #info {
   background: url('../images/frame.png') no-repeat;
   width: 450px;
@@ -56,6 +52,10 @@ h1 {
   font-size: 0.6em;
   font-weight: bold;
   margin: 5px;
+}
+
+.app {
+  height: 40px;
 }
 
 button {
