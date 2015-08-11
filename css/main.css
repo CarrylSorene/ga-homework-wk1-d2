@@ -49,8 +49,13 @@ h1 {
   color: silver;
   text-transform: uppercase;
   font-size: 0.6em;
+  font-weight: bold;
 }
 
+p {
+  font-size: 0.8em;
+  color: darkslategrey;
+}
 ul {
   list-style: none;
 }
@@ -62,5 +67,6 @@ li {
   font-weight: bold;
   font-size: 0.6em;
   color: #1c5380;
+  padding: 5px
 }
 
